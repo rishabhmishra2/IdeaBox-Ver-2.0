@@ -103,105 +103,33 @@ html, body{
   height: auto;
   width: 100vw;
   /* background-color: red; */
-  margin-top: 7rem;
+  margin-top: 14rem;
   margin-bottom: 12.5rem;
 }
 
 .mainContainer {
-  height: 100%;
+  height: 70rem;
   width: 70%;
-  background-color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 7rem;
-
-}
-
-.homeBlock {
-  width: 100%;
-  height: 37.5rem;
-  /* background-color: red; */
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.homeBlockLeft {
-  background-color: #666666;
-  height: 31.5rem;
-  width: 31.5rem;
-  position: relative;
-  /* top: 0; */
-  /* left: 0; */
-  z-index: 3;
-  box-shadow: 0px 50px 100px 10px rgba(0, 0, 0, 0.34);
-}
-
-.homeBlockRight {
-  /* background-color: blue; */
-  height: 22.5rem;
-  width: 70%;
-  z-index: 1;
-  position: absolute;
-  margin-top: 15rem;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.homeBlockRightInner {
-  width: 80%;
-  height: 100%;
   background-color: #D9D9D9;
-}
-
-.homeBlockSpacer {
-  margin-top: 12rem;
-}
-
-.homeBlockSecond .homeBlockLeft {
-  margin-left: auto;
-}
-
-.homeBlockSecond .homeBlockRight {
-  justify-content: flex-start;
-}
-
-.homeBlockThird {
-  height: 45rem;
-}
-
-.homeBlockThird .homeBlockRight {
-  /* justify-content: flex-start; */
-  height: 25rem;
-  margin-top: 22rem;
-}
-
-.homeBlockThird .homeBlockLeft {
   margin-left: auto;
   margin-right: auto;
+  padding: 5rem;
+  /* padding-top: 7rem; */
+  display: flex;
+  flex-direction: row;
+
 }
 
-.homeBlockThird .homeBlockRightInner {
-  /* justify-content: flex-start; */
-  width: 100%;
+.aboutBannerLeft {
+  height: 100%;
+  width: 45%;
+  /* background-color: green; */
 }
 
-#homeBlockCollaborationLeft {
-  background: url('../images/COLLABORATE-iStock-525109731-768x659.jpeg');
-  background-size: cover;
-  background-position: center;
-}
-
-#homeBlockDesignLeft {
-  background: url('../images/cover_article_1608_nb_NO-3897130090.png');
-  background-size: cover;
-  background-position: center;
-}
-
-#homeBlockInnovateLeft {
-  background: url('../images/s5i8mqjblvseb9dv-1199602755.png');
-  background-size: cover;
-  background-position: center;
+.aboutBannerRight {
+  height: 100%;
+  width: 55%;
+  /* background-color: palegoldenrod; */
 }
 
 
@@ -216,6 +144,8 @@ footer {
   width: 100%;
   height: 40rem;
   background-color: #515151;
+  margin-top: 30rem;
+  /* border-radius: 20% 20% 0 0 ; */
 }
 
 
