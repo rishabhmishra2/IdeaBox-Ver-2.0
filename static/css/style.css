@@ -274,6 +274,31 @@ html, body{
   text-align: right;
 }
 
+#homeBlockCollaboration .homeBlockRightInner {
+  background-color: #538F9C;
+}
+
+#homeBlockCollaboration .blockSubHead {
+  color: #fff;
+}
+
+#homeBlockDesign .homeBlockRightInner {
+  background-color: #E28337;
+}
+
+#homeBlockDesign .blockSubHead {
+  color: #fff;
+}
+
+#homeBlockInnovate .homeBlockRightInner {
+  background-color: #F1CE4F;
+}
+
+#homeBlockInnovate .blockSubHead {
+  color: #fff;
+}
+
+
 /* mainContainer ends */
 
 
